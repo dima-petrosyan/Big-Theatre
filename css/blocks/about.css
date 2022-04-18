@@ -1,0 +1,27 @@
+
+
+.about {
+	padding: 150px 0px;
+}
+
+.about__title {
+	padding-bottom: 100px;
+}
+
+.about__subtitle {
+	padding-bottom: 40px;
+}
+
+.info__icon {
+	padding-bottom: 16px;
+}
+
+.about__info .info__block + .info__block {
+	margin-top: 28px;
+}
+
+@media (max-width: 991px) {
+	.about__theatre {
+		display: none;
+	}
+}

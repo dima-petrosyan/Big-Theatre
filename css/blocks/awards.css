@@ -1,0 +1,42 @@
+
+
+.awards {
+	margin: 150px 0px;
+	height: 550px;
+	position: relative;
+}
+
+.awards__background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.awards__background img {
+	width: 100%;
+	height: 550px;
+	object-fit: cover;
+}
+
+@media(min-width: 1110px) {
+	.awards {
+		width: 1110px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.awards__content {
+	padding-top: 126px;
+}
+
+.awards__stars {
+	display: flex;
+	width: 230px;
+	justify-content: space-between;
+	padding-bottom: 25px;
+}
+

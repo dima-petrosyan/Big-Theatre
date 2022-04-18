@@ -1,0 +1,26 @@
+
+
+.partners {
+	max-width: 1110px;
+	margin: 0px auto;
+}
+
+.partners h2 {
+	padding-bottom: 20px;
+}
+
+.partners img {
+	display: inline-block;
+	max-width: 200px;
+	margin-top: 80px;
+}
+
+.partners .container .col {
+	text-align: center;
+}
+
+@media (max-width: 991px) {
+	.partners__extra {
+		display: none;
+	}
+}
